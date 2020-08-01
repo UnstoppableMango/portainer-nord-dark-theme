@@ -27,6 +27,8 @@ TODO:
 
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
+@-moz-document regexp("(https:\/\/.*):(9000)\/?(.*)")
+{
 body {
     background: #292D3E;
     font-family: Rubik;
@@ -555,3 +557,4 @@ service-tasks-datatable > div {
 } */
 
 #toast-container { z-index: 0; }
+}
